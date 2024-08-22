@@ -1,5 +1,6 @@
 import React from "react";
 import { TrafficLight } from './TrafficLight.jsx';
+import { SimpleCounter } from "./SimpleCounter.jsx";
 
 
 
@@ -9,6 +10,7 @@ const Home = () => {
 	return (
 		<div className="text-center">
 			 <TrafficLight/> 
+			 <SimpleCounter/>
 		
 		</div>
 	);
