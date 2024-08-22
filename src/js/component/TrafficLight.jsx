@@ -8,7 +8,7 @@ export const TrafficLight = () => {
 
   return (
     <div className="container">
-      <h1 className="text-center text-primary">TrafficLight</h1>
+      <h1 className="text-center text-succes">TrafficLight</h1>
       <div className="row">
         <div className="button-gro">
           <div className={`btn btn-danger mx-5 glow-${color == 'red' ? color : ''}`} 

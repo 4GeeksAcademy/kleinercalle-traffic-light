@@ -1,6 +1,7 @@
 import React from "react";
 import { TrafficLight } from './TrafficLight.jsx';
 import { SimpleCounter } from "./SimpleCounter.jsx";
+import { TodoList } from "./TodoList.jsx";
 
 
 
@@ -11,6 +12,7 @@ const Home = () => {
 		<div className="text-center">
 			 <TrafficLight/> 
 			 <SimpleCounter/>
+			 <TodoList/>
 		
 		</div>
 	);

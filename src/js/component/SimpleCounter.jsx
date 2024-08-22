@@ -39,7 +39,7 @@ export const SimpleCounter = () => {
 
   return (
     <div>
-      <h1 className="text-center text-succes">Simple Counter</h1>
+      <h1 className="text-center text-success">Simple Counter</h1>
         <h2 className={status.style}>{status.title}</h2>
         <div className="big-counter">
           <div><i className={status.icon}></i></div>
